@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+    head
+        title= pageTitle
+        script(type='text/javascript').
+            if (foo) {
+                bar(1 + 5)
+            }
+    body
+        form(action='/get',method='post')
+            input(type='text',name='url')
+            input(type='submit',value='submit')
